@@ -12,6 +12,7 @@ export const Principal = () => {
       
       const inputValue = target.value;
 
+      //cOMO LO HICE YO 
         const  textTraduccion = inputValue.split('');
         textTraduccion.map((char)=>{
           if(vocales.includes(char)){
@@ -23,6 +24,10 @@ export const Principal = () => {
         })
         setTextoTraducido(textTraduccion.join(''));
       }
+
+      //COMO LO HIZO DAVID
+
+      
 
   return (
    <>
